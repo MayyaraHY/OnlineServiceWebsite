@@ -1,0 +1,201 @@
+*{
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+hr{
+    width: 80%;
+}
+
+.NavBar{
+    position: sticky;
+    display: flex;  
+    justify-content: space-between;
+    background-color: #abb7f0;
+}
+
+
+.container{
+    margin: 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.container form{
+    background: #fff;
+    width: 400px;
+    height: 30px;
+    display: flex;
+}
+.container form input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+.container form button{
+    background: #f9b8a2;
+    border:none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.NavBar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 30px;
+}
+.NavBar ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.NavBar ul li a{
+    text-decoration: none;
+}
+.NavBar ul li a:hover{
+    color: #fbf4dc;
+}
+.NavBar ul li:hover{
+ cursor: pointer;
+}
+.bg{
+  background-color: #fbf4dc;
+}
+#about{
+    margin-bottom: 100px;
+}
+#about main img{
+    margin: 100px 38% 20px 38%;
+}
+
+#about article{
+    text-align: center;
+    width: 60%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+#about article h1{
+    color: brown;
+    text-decoration: wavy;
+    text-size-adjust: 300px;
+}
+
+#services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 65%;
+    margin: 30px auto;
+}
+#services .ca{
+    border-radius: 5%;
+    margin: 50px 20px;
+}
+#services .ca .cb{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+#services .ca .cb button{
+    background-color:  #ff8056;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10%;
+    height: 35px;
+    margin: 10px 30px 10px 10px;
+    border-color: white;
+}
+#services .ca .cb button:hover{
+    cursor: pointer;
+    background-color: #dd5528;
+}
+
+ .inv p{
+    width: 70%;
+    margin: 30px auto 20px auto;
+    text-align: center;
+ }
+
+#joinUs form{
+    width: 50%;
+    margin: 50px auto 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#joinUs form input{
+    width: 300px;
+}
+#joinUs form button{
+    background-color:  #ff8056;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10%;
+    height: 35px;
+    width: 200px;
+    margin: 10px 30px 10px 10px;
+    border-color: white;
+}
+#joinUs form button:hover{
+    cursor: pointer;
+    background-color: #dd5528;
+}
+
+#feedBack{
+    width: 80%;
+    margin: 30px auto;
+}
+#feedBack .stars{
+    width: 50%;
+    margin: 20px 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+#feedBack .stars .btn{
+    border: none;
+    background-color: #fbf4dc;
+    outline: none; 
+}
+#feedBack .stars .btn:hover{
+    cursor: pointer;
+}
+#feedBack .cmnt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+}
+#feedBack .cmnt .label{
+   margin-left: 20px;
+}
+#feedBack .cmnt input{
+ width: 300px;
+ margin: 20px 20px;
+ height: 50px;
+}
+#feedBack button{
+    background-color:  #ff8056;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10%;
+    height: 35px;
+    width: 200px;
+    margin: 20px 20px;
+    border-color: white;
+}
+#feedBack button:hover{
+    cursor: pointer;
+    background-color: #dd5528;
+}
+footer{
+    text-align: center;
+}
